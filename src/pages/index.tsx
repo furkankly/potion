@@ -35,7 +35,7 @@ function Home() {
       </Head>
       <main>
         <Header />
-        <div className="m-4 mx-auto min-h-[calc(100vh-116px)] max-w-7xl rounded-2xl bg-neutral-900 bg-[url('/potion-background.png')] bg-[length:200px_200px] bg-center bg-repeat-y p-4 py-10 bg-blend-soft-light md:bg-[length:800px_800px]">
+        <div className="m-4 mx-auto min-h-[calc(100vh-116px)] max-w-7xl rounded-2xl bg-neutral-900 bg-[url('/potion-background.png')] bg-[length:200px_200px] bg-center bg-no-repeat p-4 py-10 bg-blend-soft-light md:bg-[length:800px_800px]">
           <Editor />
         </div>
       </main>
